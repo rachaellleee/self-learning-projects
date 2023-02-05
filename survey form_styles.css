@@ -1,0 +1,50 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 50rem;
+    margin: 10px auto;
+    padding: 0px 2rem;
+    border: 1px solid;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+/*form section*/
+
+
+.field-head {
+    font-size: 20px;
+}
+
+
+.field-inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-control-input {
+    width: 30rem;
+    padding: 10px 15px;
+    margin: 5px 0px;
+    background-color: #F0F0F0;
+}
+
+button {
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    display: block;
+    padding: 5px 5px;
+    background-color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Satisfaction Survey</title>
+        <link rel="stylesheet" href="survey form_styles.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1 class="main-heading">Customer Satisfaction Survey</h1>
+        <hr>
+        <p class="intro-heading">This survey will only take 5 minutes to complete. Thank you for taking your time to complete this survey!</p>
+        <hr>
+            
+        <!--form start-->    
+        <form class="form-class">
+        
+            <!-- Name -->
+            <div class="form-control">
+            
+                <div class="heading-field">
+                <h3 class="field-head">Preferred Name:</h3>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                    <input type="text" class="form-control-input" id="first-name" name="first name" required>
+                    </div>
+                </div>
+            </div>
+            <!-- Name Ends -->
+            
+            <!-- Contact --> 
+            <div class="form-control">
+            
+                <div class="heading-field-1">
+                <h3 class="field-head">Contact Number:</h3>    
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                    <input type="tel" class="form-control-input" id="first-name" name="contact" required>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Ends --> 
+            
+            <!-- Satisfaction -->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">How satisfied were you with the experience?</h3>
+                </div>
+                <div class="radio-label" style="margin:0.5rem0px ;">
+                    <input type="radio" id="satisfactionchoice1" name="os">
+                    <label for="satisfactionchoice1">1</label>
+                    <input type="radio" id="satisfactionchoice2" name="os">
+                    <label for="satisfactionchoice2">2</label>
+                    <input type="radio" id="satisfactionchoice3" name="os">
+                    <label for="satisfactionchoice3">3</label><input type="radio" id="satisfactionchoice4" name="os">
+                    <label for="satisfactionchoice4">4</label><input type="radio" id="satisfactionchoice5" name="os">
+                    <label for="satisfactionchoice5">5</label>
+                </div>
+            </div>
+            <!-- Satisfaction Ends -->
+            
+            <!-- Additional -->
+            <div class="form-control">
+                
+                <div class="heading-field">
+                    <h3 class="field-head">Any additional comments?</h3>
+                </div>
+                        <div class="field-inputs">
+                            <div class="input-div">
+                            <input type="text" class="form-control-input" id="first-name" name="additional-comments" required>
+                            </div>
+                        </div>
+            </div>
+            <!-- Additional Ends -->
+            
+            <button type="submit">Submit</button>
+            
+            </form>
+        </div>
+    </body>
+</html>
